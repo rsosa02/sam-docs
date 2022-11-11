@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T16:54:14.407Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ml-d9kBTA_JcCsOc-KGD" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-11T17:34:40.840Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UlQPd0IBJSWJwTe1hjJG" version="20.5.3" type="github" pages="2">
   <diagram id="OTTWXkD6Dgph_dhTpJjg" name="db_clinica-sosa">
-    <mxGraphModel dx="1114" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,11 +43,14 @@
             <mxPoint x="690" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5x5jpyiDWJXVje6xxp4H-1" value="&lt;span style=&quot;&quot;&gt;No se puede tener registro duplicados por ejemplo, si un paciente ha contratado 2 veces el mismo servicio, tendria que pasar esos servicios duplicados a 1 solo&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="330" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="U_rW-iGRfltOZlP7A1vz" name="tablas db_clinica">
-    <mxGraphModel dx="1311" dy="3271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="3271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
