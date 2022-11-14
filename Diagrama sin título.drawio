@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T23:33:38.427Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="58jKvnSqWWZEQ_bCbrhJ" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-14T05:59:38.460Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tIWucqIMdJi7gbc6gY7k" version="20.5.3" type="github" pages="2">
   <diagram id="OTTWXkD6Dgph_dhTpJjg" name="db_clinica-sosa">
-    <mxGraphModel dx="1102" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="0sj4polYT0Q2tzBZ2te_-4" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_cl_boleta_especialidad_extra&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id_boleta_especialidad&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;no_boleta&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;especialidadmedica_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK3&lt;/td&gt;&lt;td&gt;proveedorcitamedica_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="490" width="260" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="0sj4polYT0Q2tzBZ2te_-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_ag_serviciosclinicos_usuarios (boleta)&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;No_Boleta&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;UsuarioServicioContratado_Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
+        <mxCell id="0sj4polYT0Q2tzBZ2te_-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_ag_serviciosclinicos_usuarios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;No_Boleta&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;UsuarioServicioContratado_Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="330" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0sj4polYT0Q2tzBZ2te_-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_AG_Planes&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Plan_Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
@@ -43,14 +43,20 @@
             <mxPoint x="690" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5x5jpyiDWJXVje6xxp4H-1" value="&lt;span style=&quot;&quot;&gt;No se puede tener registro duplicados por ejemplo, si un paciente ha contratado 2 veces el mismo servicio, tendria que pasar esos servicios duplicados a 1 solo&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="5x5jpyiDWJXVje6xxp4H-1" value="&lt;span style=&quot;&quot;&gt;No se puede tener registro duplicados por ejemplo, si un paciente ha contratado 2 veces el mismo servicio, tendria que pasar esos servicios duplicados a 1 solo&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="40" y="520" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRyy3WUeMEf7b266sDXI-2" value="Servicios Contratados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRyy3WUeMEf7b266sDXI-3" value="Boletas / Citas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="U_rW-iGRfltOZlP7A1vz" name="tablas db_clinica">
-    <mxGraphModel dx="1102" dy="3131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1672" dy="3278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -668,7 +674,7 @@
         <mxCell id="sAUz8LbLl8U9qgX_BwOI-233" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;s4_pacientes_odontologia_odontograma&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; no_afiliacion: int&lt;br/&gt; fecha_creacion: datetime&lt;br/&gt; estado: varchar(50)&lt;br/&gt; boleta_creacion: int&lt;br/&gt; activo: int&lt;br/&gt; presupuesto: decimal(11,2)&lt;br/&gt; saldo: decimal(11,2)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id_odontograma: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="490" y="4690" width="345" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="QnxHBuO43jMyxJoBImyb-1" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=none;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAUz8LbLl8U9qgX_BwOI-465" target="sAUz8LbLl8U9qgX_BwOI-233">
+        <mxCell id="QnxHBuO43jMyxJoBImyb-1" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=none;endSize=12;strokeColor=#595959;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;" parent="1" source="sAUz8LbLl8U9qgX_BwOI-465" target="sAUz8LbLl8U9qgX_BwOI-233" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="959" y="2129" />
