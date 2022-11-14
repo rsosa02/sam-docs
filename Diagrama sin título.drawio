@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T20:48:48.304Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yCOP6Sl9GPYFvkGQfHTd" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-14T21:21:12.583Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yNSFfMTod4jj2yM-G9M6" version="20.5.3" type="github" pages="2">
   <diagram id="OTTWXkD6Dgph_dhTpJjg" name="db_clinica-sosa">
     <mxGraphModel dx="2858" dy="2312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry x="990" y="120" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="0sj4polYT0Q2tzBZ2te_-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_ag_serviciosclinicos_usuarios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;No_Boleta&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;UsuarioServicioContratado_Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="-192" width="260" height="80" as="geometry" />
+          <mxGeometry x="880" y="-350" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0sj4polYT0Q2tzBZ2te_-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;tbl_AG_Planes&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Plan_Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="-460" width="180" height="90" as="geometry" />
+          <mxGeometry x="40" y="-629" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0sj4polYT0Q2tzBZ2te_-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontFamily=Helvetica;exitX=0.042;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="0sj4polYT0Q2tzBZ2te_-3" target="0sj4polYT0Q2tzBZ2te_-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -50,7 +50,7 @@
           <mxGeometry x="-373.5" y="-526" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IRyy3WUeMEf7b266sDXI-3" value="Boletas / Citas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="890" y="-222" width="200" height="30" as="geometry" />
+          <mxGeometry x="900" y="-380" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9kQKCOfQMe1rxH2DIoAf-1" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;s4_citas_referencias&lt;/font&gt;&lt;/div&gt;&lt;table style=&quot;width: 100%;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;id_referencia&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;no_afiliacion&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;FK2&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;no_boleta&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK3&lt;/td&gt;&lt;td&gt;id_producto&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK4&lt;/td&gt;&lt;td&gt;id_documento&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK5&lt;/td&gt;&lt;td&gt;id_detalle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;strokeWidth=2;strokeColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="481" y="370" width="180" height="130" as="geometry" />
